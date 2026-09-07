@@ -20,10 +20,10 @@
   CloudStreamDerleyici:
     runs-on: ubuntu-latest
     steps:
-       - name: "'src' Depo Kontrolü"
-         uses: actions/checkout@v6
-         with:
-           path: "src"
+      - name: "'src' Depo Kontrolü"
+        uses: actions/checkout@v6
+        with:
+          path: "src"
  
        - name: "'build' Depo Kontrolü"
          uses: actions/checkout@v6
